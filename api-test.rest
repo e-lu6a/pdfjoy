@@ -1,0 +1,21 @@
+### sample get, at root
+GET http://localhost:8080
+
+### sample post, with body content
+POST http://localhost:8080/tshirt/123
+Content-Type: application/json
+
+{
+    "logo": "🚀"
+}
+
+###
+GET http://localhost:8080/5
+###
+GET http://localhost:8080/111111/
+###
+GET http://localhost:8080/5/453433/
+###
+GET http://localhost:8080/5/453433-111111/
+###
+GET http://localhost:8080/5/random-test/
